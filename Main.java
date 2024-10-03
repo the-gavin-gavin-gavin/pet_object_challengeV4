@@ -19,7 +19,8 @@ class Main {
 
    // three 6 argument Pet constructors
    Pet pet2 = new Pet("dog","Jaeger",2,8.1,true,false);
-
+   Pet pet3 = new Pet("cat","Peter",5,12.3,false,false);
+   Pet pet4 = new Pet("dog","John",12,47.7,true,true);
    // excersizing sleep method on pet1 and pet2
    pet1.sleep();
    System.out.println();
@@ -27,20 +28,24 @@ class Main {
    System.out.println();
 
   //aging both of my pets
-  pet1.aging(7);
+  pet4.aging(7);
   System.out.println();
-  pet2.aging(2);
+  pet3.aging(2);
   System.out.println();
 
   //changing weight of both of my pets
-  pet1.changeWeight(9.7);
+  pet2.changeWeight(9);
   System.out.println();
-  pet2.changeWeight(-2.1);
+  pet4.changeWeight(-2.1);
   System.out.println();
 
   // printing out pet values
    System.out.println(pet1);
    System.out.println();
    System.out.println(pet2);
+   System.out.println();
+   System.out.println(pet3);
+   System.out.println();
+   System.out.println(pet4);
   }
 }
